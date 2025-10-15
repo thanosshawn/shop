@@ -3,12 +3,12 @@ import { getAuth, GoogleAuthProvider, FacebookAuthProvider } from "firebase/auth
 import { initializeFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-    appId: process.env.REACT_APP_FIREBASE_APP_ID,
+      apiKey: "AIzaSyBbRiROtkcQUWPWWMl6IHL9nX8GOdDU5ds",
+  authDomain: "sample-firebase-ai-app-8051d.firebaseapp.com",
+  projectId: "sample-firebase-ai-app-8051d",
+  storageBucket: "sample-firebase-ai-app-8051d.firebasestorage.app",
+  messagingSenderId: "954206813134",
+  appId: "1:954206813134:web:cf93e36ee20a5259b3c99f"
 };
 
 // Read ReadMe.MD on GitHub to setup this project properly
