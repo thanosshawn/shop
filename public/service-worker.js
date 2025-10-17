@@ -1,5 +1,5 @@
 /* 
- * KamiKoto Shop Service Worker - No Cache Version
+ * Premanand Ji Shop Service Worker - No Cache Version
  * This service worker is minimal and does not use any caching
  */
 

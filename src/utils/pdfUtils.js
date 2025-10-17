@@ -200,7 +200,7 @@ export const createReceiptTemplate = (order, containerId) => {
           align-items: center; 
           gap: 14px;
         ">
-          <img src="${logoImage}" alt="KamiKoto Logo" style="
+          <img src="${logoImage}" alt="Premanand Ji Logo" style="
             width: 52px;
             height: 52px;
             border-radius: 10px;
@@ -213,7 +213,7 @@ export const createReceiptTemplate = (order, containerId) => {
               margin: 0;
               color: #1d1d1f;
               letter-spacing: -0.6px;
-            ">KamiKoto</h1>
+            ">Premanand Ji</h1>
             <p style="
               font-size: 12px;
               color: #86868b;
@@ -306,9 +306,9 @@ export const createReceiptTemplate = (order, containerId) => {
             letter-spacing: 0.5px;
           ">From</h3>
           <div style="color: #1d1d1f; font-size: 11px; line-height: 1.5;">
-            <div style="font-weight: 600; margin-bottom: 4px;">KamiKoto Stationeries Pvt. Ltd.</div>
+            <div style="font-weight: 600; margin-bottom: 4px;">Premanand Ji Store</div>
             <div style="color: #86868b; margin-bottom: 2px;">North Sentinel Island, Andaman and Nicobar Islands, India</div>
-            <div style="color: #86868b; margin-bottom: 2px;">support@kamikoto.nsi</div>
+            <div style="color: #86868b; margin-bottom: 2px;">support@premanandji.store</div>
             <div style="color: #86868b;">+91 1800-6969-6969</div>
           </div>
         </div>
@@ -592,13 +592,13 @@ export const createReceiptTemplate = (order, containerId) => {
         padding-top: 24px;
         border-top: 1px solid #d2d2d7;
       ">
-        <h3 style="
+                    <h3 style="
           font-size: 16px;
           font-weight: 600;
           color: #1d1d1f;
           margin: 0 0 8px 0;
           letter-spacing: -0.2px;
-        ">Thank you for your order at KamiKoto!</h3>
+                    ">Thank you for your order at Premanand Ji!</h3>
         <p style="
           font-size: 10px;
           color: #86868b;
@@ -631,8 +631,8 @@ export const downloadOrderReceipt = async (order) => {
     // Create the receipt template
     createReceiptTemplate(order, 'temp-receipt-container');
     
-    // Generate and download the PDF
-    await generatePdfFromElement('temp-receipt-container', `KamiKoto-Invoice-${order.orderId}`);
+  // Generate and download the PDF
+  await generatePdfFromElement('temp-receipt-container', `PremanandJi-Invoice-${order.orderId}`);
     
     // Remove the temporary container
     document.body.removeChild(tempContainer);

@@ -56,12 +56,15 @@ const Footer = () => {
         >
           {/* Brand Section */}
           <m.div variants={itemVariants} className="text-center md:text-left">
-            <m.h3 
-              className="text-2xl font-bold mb-4"
-              whileHover={{ scale: 1.05 }}
-            >
-              KamiKoto
-            </m.h3>
+            <div className="flex items-center space-x-3 justify-center md:justify-start mb-3">
+              <img src="/premlogo.jpeg" alt="Premanand Ji" className="h-10 w-auto rounded-md" />
+              <m.h3 
+                className="text-2xl font-bold"
+                whileHover={{ scale: 1.05 }}
+              >
+                Premanand Ji
+              </m.h3>
+            </div>
             <m.p 
               className="text-gray-400"
               variants={itemVariants}
@@ -82,7 +85,7 @@ const Footer = () => {
                 <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                   <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd"></path>
                 </svg>
-                North Sentinel Island, A&N Islands, India
+                 India
               </p>
               
               {/* Phone with icon */}
@@ -99,7 +102,7 @@ const Footer = () => {
                   <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
                 </svg>
-                please.help.me@kamikoto.nsi
+                support@premanandji.store
               </p>
             </m.div>
           </m.div>
@@ -133,7 +136,7 @@ const Footer = () => {
               variants={itemVariants}
             >
               <p className="text-sm">
-                DISCLAIMER: This website is not a commercial enterprise. KamiKoto is a fictitious entity created solely for educational and skill development purposes. No real products are sold, and no actual transactions occur herein. Any resemblance to real businesses, products, or services is purely coincidental.
+                DISCLAIMER: This website is a demo for the Premanand Ji rebrand. No real products are sold through this demo. Any resemblance to real businesses, products, or services is purely coincidental.
               </p>
              
             </m.div>
@@ -145,7 +148,7 @@ const Footer = () => {
           variants={itemVariants}
           className="pt-8 mt-8 border-t border-gray-700 text-center text-gray-400"
         >
-          <p>© {new Date().getFullYear()} KamiKoto. No rights reserved.</p>
+          <p>© {new Date().getFullYear()} Premanand Ji. No rights reserved.</p>
           <m.div 
             className="mt-4 text-sm"
             variants={itemVariants}
@@ -164,7 +167,7 @@ const Footer = () => {
             >
               ❤️ 
             </m.span>
-            <span> by <a href="https://harshbanker.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">Harsh Banker</a></span>
+            <span> by Radhey</span>
           </m.div>
         </m.div>
       </div>

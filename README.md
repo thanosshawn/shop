@@ -1,9 +1,9 @@
 # Admin Side (Separate Repo: [shopAdmin](https://github.com/itfeelsharsh/shopAdmin)):
  (made with React + Firebase no server deployment required, can-be hosted on CloudFlare pages, Vercel, Netlify, Firebase Hosting Etc.)
 
-# KamiKoto - Stationery E-Commerce Web App
+# Premanand Ji - Shopping Web App
 
-Welcome to KamiKoto, a beautifully crafted e-commerce platform offering a seamless shopping experience for stationery. This project is built using **React.js** and **Firebase**, delivering a delightful UI/UX and mobile-friendly experience for all users.
+Welcome to the Premanand Ji rebrand demo — a beautifully crafted e-commerce platform template built with **React.js** and **Firebase**.
 
 ## 📸 Application Screenshots
 
@@ -11,7 +11,7 @@ Welcome to KamiKoto, a beautifully crafted e-commerce platform offering a seamle
   
 ### 🏠 Main Application Preview
   
-<img src="screenshots/1.png" alt="KamiKoto Home Page - Main Landing Page" width="100%" style="max-width: 900px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); margin: 20px 0;">
+<img src="screenshots/1.png" alt="Premanand Ji Home Page - Main Landing Page" width="100%" style="max-width: 900px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); margin: 20px 0;">
 
 ---
 
@@ -131,7 +131,7 @@ Welcome to KamiKoto, a beautifully crafted e-commerce platform offering a seamle
 
 </div>
 
-**Live Demo:** [kamikoto.pages.dev](https://kamikoto.pages.dev)
+**Live Demo:** Replace with your Premanand Ji live site URL after deployment
 
 ---
 
@@ -167,8 +167,8 @@ Welcome to KamiKoto, a beautifully crafted e-commerce platform offering a seamle
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/itfeelsharsh/kamikoto.git
-   cd kamikoto
+  git clone https://github.com/itfeelsharsh/kamikoto.git
+  cd <project-folder>
    ```
 
 2. **Install Dependencies**

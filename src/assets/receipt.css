@@ -1,5 +1,5 @@
 /**
- * Receipt PDF Styling for KamiKoto Stationery Shop
+ * Receipt PDF Styling for Premanand Ji Shop
  * 
  * Enhanced styling for receipt PDFs with warm, elegant design
  * Includes print-specific styles for optimal PDF output
@@ -43,7 +43,7 @@
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 5px;
-  color: #8B4513; /* Warm brown color matching theme-color from index.html */
+  color: #8B4513; /* Warm brand color (can be updated for Premanand Ji) */
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }

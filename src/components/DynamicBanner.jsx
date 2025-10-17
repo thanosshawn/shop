@@ -157,7 +157,7 @@ const DynamicBanner = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
-        className="w-full h-[200px] bg-gradient-to-r from-gray-200 to-gray-300 animate-pulse mb-6 rounded-lg overflow-hidden relative"
+        className="w-full h-40 md:h-56 bg-gradient-to-r from-gray-200 to-gray-300 animate-pulse mb-6 rounded-lg overflow-hidden relative"
       >
         {/* Loading shimmer effect */}
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-transparent animate-shimmer"></div>
@@ -184,20 +184,20 @@ const DynamicBanner = () => {
         className="relative w-full mb-6 rounded-lg overflow-hidden shadow-lg"
       >
         <m.img
-          src="/banners/3.webp"
-          alt="KamiKoto Default Banner"
-          className="w-full object-cover"
+          src="/banners/3.jpg"
+          alt="Premanand Ji Default Banner"
+          className="w-full h-40 md:h-56 object-cover"
           onError={(e) => {
             e.target.onerror = null;
-            e.target.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjOEI0NTEzIi8+CiAgPHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCIgZmlsbD0id2hpdGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIj5LYW1pS290bzwvdGV4dD4KICA8dGV4dCB4PSI1MCUiIHk9IjY1JSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPllvdXIgUHJlbWl1bSBTdGF0aW9uZXJ5IERlc3RpbmF0aW9uPC90ZXh0Pgo8L3N2Zz4K'; // Fallback SVG banner
+            e.target.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjOEI0NTEzIi8+CiAgPHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCIgZmlsbD0id2hpdGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIj5CYW5uZXIgQ29udGVudCBOb3QgQXZhaWxhYmxlPC90ZXh0Pgo8L3N2Zz4K'; // Fallback SVG banner
           }}
         />
         
         {/* Default banner overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/20 to-transparent flex items-center justify-center">
-          <div className="text-white text-center">
-            <h1 className="text-2xl md:text-4xl font-bold mb-2">Welcome to KamiKoto</h1>
-            <p className="text-sm md:text-lg opacity-90">Your Premium Stationery Destination</p>
+            <div className="text-white text-center">
+            <h1 className="text-2xl md:text-4xl font-bold mb-2">Welcome to Premanand Ji</h1>
+            <p className="text-sm md:text-lg opacity-90">Your Trusted Shopping Destination</p>
           </div>
         </div>
       </m.div>
@@ -212,15 +212,15 @@ const DynamicBanner = () => {
           <m.img
             key={currentBannerIndex}
             src={banners[currentBannerIndex].imageUrl}
-            alt={`KamiKoto Banner ${currentBannerIndex + 1}`}
+            alt={`Premanand Ji Banner ${currentBannerIndex + 1}`}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="w-full object-cover"
+            className="w-full h-40 md:h-56 object-cover"
             onError={(e) => {
               e.target.onerror = null;
-              e.target.src = '/banners/3.webp'; // Fallback to default banner on error
+              e.target.src = '/banners/3.jpg'; // Fallback to default banner on error
             }}
           />
         </AnimatePresence>

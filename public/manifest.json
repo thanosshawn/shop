@@ -1,7 +1,7 @@
 {
-  "short_name": "KamiKoto",
-  "name": "KamiKoto - Your Online Stationery Shop",
-  "description": "stationery items like notebooks, pens and other writing materials",
+  "short_name": "PremanandJi",
+  "name": "Premanand Ji - Your Online Shopping Store",
+  "description": "Shop Premanand Ji for quality products and trusted shopping experience",
   "icons": [
     {
       "src": "favicon.ico",
@@ -38,7 +38,7 @@
       "sizes": "1080x1920",
       "type": "image/png",
       "platform": "narrow", 
-      "label": "Homepage of KamiKoto - Mobile View"
+  "label": "Homepage of Premanand Ji - Mobile View"
     },
     {
       "src": "screenshots/acc-app.png",
@@ -52,7 +52,7 @@
       "sizes": "1920x1080",
       "type": "image/png",
       "platform": "wide",
-      "label": "Homepage of KamiKoto - Desktop View"
+  "label": "Homepage of Premanand Ji - Desktop View"
     }
   ],
   "shortcuts": [

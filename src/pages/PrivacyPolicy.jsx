@@ -15,12 +15,12 @@ function PrivacyPolicy() {
       <h1 className="text-5xl font-bold mb-8 text-gray-900 text-center">Privacy Policy</h1>
       
       <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-        Welcome to <strong className="text-indigo-600">KamiKoto</strong>! Your privacy is of utmost importance to us. This Privacy Policy outlines the types of information we do and do not collect, how we use it, and the measures we take to protect your privacy.
+  Welcome to <strong className="text-indigo-600">Premanand Ji</strong>! Your privacy is of utmost importance to us. This Privacy Policy outlines the types of information we do and do not collect, how we use it, and the measures we take to protect your privacy.
       </p>
       
       <h2 className="text-3xl font-semibold mb-4 text-gray-800">1. Information We Do Not Collect</h2>
       <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-        <strong>KamiKoto</strong> is designed solely for educational purposes. We do not collect, store, or process any personal data from our users. This includes, but is not limited to:
+  <strong>Premanand Ji</strong> is designed solely for demonstration purposes. We do not collect, store, or process any personal data from our users. This includes, but is not limited to:
       </p>
       <ul className="list-disc list-inside text-lg text-gray-700 mb-4">
         <li>Personal Identification Information (e.g., name, address, email)</li>
@@ -36,7 +36,7 @@ function PrivacyPolicy() {
       
       <h2 className="text-3xl font-semibold mb-4 text-gray-800">3. Cookies and Tracking Technologies</h2>
       <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-        <strong>KamiKoto</strong> does not use cookies or any other tracking technologies to monitor or store your activity.
+  <strong>Premanand Ji</strong> does not use cookies or any other tracking technologies to monitor or store your activity.
       </p>
       
       <h2 className="text-3xl font-semibold mb-4 text-gray-800">4. Changes to This Privacy Policy</h2>

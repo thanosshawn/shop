@@ -113,7 +113,7 @@ export async function onRequest(context) {
     }
     
     // Prepare email payload with validation
-    const defaultFrom = 'KamiKoto <noreply@kamikoto.nsl>';
+  const defaultFrom = 'Premanand Ji <noreply@premanandji.store>';
     const emailPayload = {
       from: body.from || defaultFrom,
       to: Array.isArray(body.to) ? body.to : [body.to], // Ensure to is an array
@@ -143,7 +143,7 @@ export async function onRequest(context) {
       headers: {
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${apiKey}`,
-        'User-Agent': 'KamiKoto-Shop/1.0.0'
+  'User-Agent': 'PremanandJi-Shop/1.0.0'
       },
       body: JSON.stringify(emailPayload)
     });

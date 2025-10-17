@@ -15,17 +15,17 @@ function TermsOfService() {
       <h1 className="text-5xl font-bold mb-8 text-gray-900 text-center">Terms of Service</h1>
       
       <p className="text-lg text-gray-700 mb-6 leading-relaxed text-center">
-        Welcome to <strong className="text-indigo-600">KamiKoto</strong>! By accessing or using our application, you agree to comply with and be bound by the following terms and conditions. Please read them carefully.
+  Welcome to <strong className="text-indigo-600">Premanand Ji</strong>! By accessing or using our application, you agree to comply with and be bound by the following terms and conditions. Please read them carefully.
       </p>
       
       <h2 className="text-3xl font-semibold mb-4 text-gray-800">1. Acceptance of Terms</h2>
       <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-        These Terms of Service govern your use of the <strong>KamiKoto</strong> application. By using our app, you accept these terms in full. If you disagree with any part of these terms, you must not use our application.
+  These Terms of Service govern your use of the <strong>Premanand Ji</strong> application. By using our app, you accept these terms in full. If you disagree with any part of these terms, you must not use our application.
       </p>
       
       <h2 className="text-3xl font-semibold mb-4 text-gray-800">2. Purpose of the Application</h2>
       <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-        <strong>KamiKoto</strong> is developed exclusively for educational purposes. It serves as a demonstration of React and Firebase integration in building a Japanese stationery shopping application.
+  <strong>Premanand Ji</strong> is provided as a demo template to showcase a React + Firebase shopping experience.
       </p>
       
       <h2 className="text-3xl font-semibold mb-4 text-gray-800">3. No Data Collection</h2>
@@ -35,12 +35,12 @@ function TermsOfService() {
       
       <h2 className="text-3xl font-semibold mb-4 text-gray-800">4. Intellectual Property</h2>
       <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-        All content, including text, images, logos, and software, is the property of <strong>KamiKoto</strong> or its respective owners. Unauthorized use or reproduction of any materials is strictly prohibited.
+  All content, including text, images, logos, and software, is the property of <strong>Premanand Ji</strong> or its respective owners. Unauthorized use or reproduction of any materials is strictly prohibited.
       </p>
       
       <h2 className="text-3xl font-semibold mb-4 text-gray-800">5. Limitation of Liability</h2>
       <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-        <strong>KamiKoto</strong> is provided "as is" without any warranties, express or implied. We are not liable for any damages arising from the use or inability to use our application.
+  <strong>Premanand Ji</strong> is provided "as is" without any warranties, express or implied. We are not liable for any damages arising from the use or inability to use our application.
       </p>
       
       <h2 className="text-3xl font-semibold mb-4 text-gray-800">6. Changes to Terms</h2>

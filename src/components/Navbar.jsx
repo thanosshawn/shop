@@ -161,11 +161,11 @@ export default function Navbar() {
             <div className="flex-shrink-0">
               <Link to="/" className="flex items-center space-x-2">
                 <img
-                  className="h-10 w-auto"
-                  src="/kamikoto-logo-with-name-tagline-dark-brown-bg.png"
-                  alt="KamiKoto"
+                  className="h-8 w-auto"
+                  src="/premlogo.jpeg"
+                  alt="Premanand Ji"
                 />
-                <span className="font-bold text-xl text-gray-800">KamiKoto</span>
+                <span className="font-bold text-xl text-gray-800">Premanand Ji</span>
               </Link>
             </div>
 

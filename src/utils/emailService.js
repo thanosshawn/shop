@@ -87,8 +87,8 @@ const sendViaApiEndpoint = async (emailData) => {
 
     // Prepare the sender with proper format
     const fromEmail = emailData.from || featureConfig.email.fromAddress
-    // Ensure proper "From" format with name - Resend requires this format
-    const formattedFrom = fromEmail.includes("<") ? fromEmail : `KamiKoto <${fromEmail}>`
+  // Ensure proper "From" format with name - Resend requires this format
+  const formattedFrom = fromEmail.includes("<") ? fromEmail : `Premanand Ji <${fromEmail}>`
 
     // Prepare the email payload for our API
     const emailPayload = {
@@ -180,7 +180,7 @@ const sendOrderConfirmationEmail = async (order, user) => {
 
     const emailData = {
       to: user.email,
-      subject: `KamiKoto - Order Confirmation #${order.orderId}`,
+      subject: `Premanand Ji - Order Confirmation #${order.orderId}`,
       body: emailBody,
     }
 
@@ -526,7 +526,7 @@ const generateOrderConfirmationHTML = (order, user) => {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
   <meta name="x-apple-disable-message-reformatting">
-  <title>Order Confirmation - KamiKoto</title>
+  <title>Order Confirmation - Premanand Ji</title>
   <style type="text/css">
     ${modernCSS}
   </style>
@@ -558,9 +558,9 @@ const generateOrderConfirmationHTML = (order, user) => {
           <!-- Header -->
           <tr>
             <td class="header-section">
-              <img src="https://example.com/your-red-white-logo.png" alt="KamiKoto Logo" class="header-logo">
-              <h1 class="header-title">KamiKoto</h1>
-              <p class="header-subtitle">Your Premium Stationery Store</p>
+              <img src="https://example.com/your-logo.png" alt="Premanand Ji Logo" class="header-logo">
+              <h1 class="header-title">Premanand Ji</h1>
+              <p class="header-subtitle">Your Trusted Online Store</p>
             </td>
           </tr>
 
@@ -690,7 +690,7 @@ const generateOrderConfirmationHTML = (order, user) => {
           <!-- Footer -->
           <tr>
             <td class="footer-section">
-              <p style="margin: 0 0 5px 0;">© ${new Date().getFullYear()} KamiKoto. All Rights Reserved.</p>
+              <p style="margin: 0 0 5px 0;">© ${new Date().getFullYear()} Premanand Ji. All Rights Reserved.</p>
               <p style="margin: 0;">This email was sent because you placed an order with us.</p>
             </td>
           </tr>
@@ -985,7 +985,7 @@ const generateOrderShippedHTML = (order, user, shipmentInfo) => {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
   <meta name="x-apple-disable-message-reformatting">
-  <title>Order Shipped - KamiKoto</title>
+  <title>Order Shipped - Premanand Ji</title>
   <style type="text/css">
     ${modernCSS}
   </style>
@@ -1017,8 +1017,8 @@ const generateOrderShippedHTML = (order, user, shipmentInfo) => {
           <!-- Header -->
           <tr>
             <td class="header-section">
-              <img src="https://example.com/your-red-white-logo.png" alt="KamiKoto Logo" class="header-logo">
-              <h1 class="header-title">KamiKoto</h1>
+              <img src="https://example.com/your-logo.png" alt="Premanand Ji Logo" class="header-logo">
+              <h1 class="header-title">Premanand Ji</h1>
               <p class="header-subtitle">Your Premium Stationery Store</p>
             </td>
           </tr>
@@ -1176,8 +1176,8 @@ const generateOrderShippedHTML = (order, user, shipmentInfo) => {
           <!-- Footer -->
           <tr>
             <td class="footer-section">
-              <p style="margin: 0 0 5px 0;">Thank you for shopping with KamiKoto</p>
-              <p style="margin: 0 0 5px 0;">© ${new Date().getFullYear()} KamiKoto. All rights reserved.</p>
+              <p style="margin: 0 0 5px 0;">Thank you for shopping with Premanand Ji</p>
+              <p style="margin: 0 0 5px 0;">© ${new Date().getFullYear()} Premanand Ji. All rights reserved.</p>
               <p style="margin: 0;">This email was sent because you placed an order with us.</p>
             </td>
           </tr>
