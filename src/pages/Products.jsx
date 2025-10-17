@@ -23,6 +23,7 @@ function Products() {
   // State management
   const [products, setProducts] = useState([]); // All products from database
   const [loading, setLoading] = useState(true); // Loading state for initial data fetch
+  const [fetchError, setFetchError] = useState(null); // Capture fetch errors for UI feedback
   const [visibleCounts, setVisibleCounts] = useState({}); // Track number of visible products per category
   const [searchTerm, setSearchTerm] = useState(""); // User search input
   const [showFilters, setShowFilters] = useState(false); // Control filter panel visibility
@@ -101,6 +102,7 @@ function Products() {
         
       } catch (error) {
         console.error("Error fetching products:", error);
+        setFetchError(error?.message || String(error));
         
         // Fallback to cached data if available when fetch fails
         const cachedProducts = sessionStorage.getItem('products_cache');
@@ -125,6 +127,13 @@ function Products() {
       // Any cleanup code if needed
     };
   }, [user]); // Add user dependency to re-fetch when auth state changes
+
+  // If there was a fetch error, log guidance for debugging
+  useEffect(() => {
+    if (fetchError) {
+      console.warn('Products fetch error detected. If you see "permission-denied" check Firestore rules and the project config.');
+    }
+  }, [fetchError]);
 
   /**
    * Extract unique brands and types from products
@@ -321,6 +330,15 @@ function Products() {
       </h1>
 
       {/* Search and Filter Section */}
+      {/* Fetch error banner (helps debug permission/network issues) */}
+      {fetchError && (
+        <div className="mb-6 p-4 rounded-md bg-red-50 border border-red-200 text-red-800">
+          <strong>Unable to load products:</strong> {fetchError}
+          <div className="mt-2 text-sm text-red-700">
+            Common causes: Firestore security rules blocking unauthenticated reads, incorrect Firebase project/config, or network errors. Check browser console (Network/Console) for a detailed error response.
+          </div>
+        </div>
+      )}
       <div className="mb-8 space-y-4">
         {/* Search Bar with Filter Toggle */}
         <div className="flex gap-4">
