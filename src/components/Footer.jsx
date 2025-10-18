@@ -57,7 +57,7 @@ const Footer = () => {
           {/* Brand Section */}
           <m.div variants={itemVariants} className="text-center md:text-left">
             <div className="flex items-center space-x-3 justify-center md:justify-start mb-3">
-              <img src="/premlogo.jpeg" alt="Premanand Ji" className="h-10 w-auto rounded-md" />
+              <img src="/premlogo.png" alt="Premanand Ji" className="h-10 w-auto rounded-md" />
               <m.h3 
                 className="text-2xl font-bold"
                 whileHover={{ scale: 1.05 }}

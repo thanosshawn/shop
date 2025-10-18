@@ -162,7 +162,7 @@ export default function Navbar() {
               <Link to="/" className="flex items-center space-x-2">
                 <img
                   className="h-8 w-auto"
-                  src="/premlogo.jpeg"
+                  src="/premlogo.png"
                   alt="Premanand Ji"
                 />
                 <span className="font-bold text-xl text-gray-800">Premanand Ji</span>
